@@ -8,7 +8,10 @@ Dev Team: \
   2550752 - Palesa Rapolaki \
   2596469 - Nonhlanhla Sekhula \
 
-Application Link: https://thankful-smoke-0e4d0b710.5.azurestaticapps.net/
-GitHub Repository: https://github.com/00Ducky13/cryptid-web-app-sd-2024
+Application Link: https://thankful-smoke-0e4d0b710.5.azurestaticapps.net/ \
+GitHub Repository: https://github.com/00Ducky13/cryptid-web-app-sd-2024 \
+Proof of Scrum Methodology: Navigate to SDScrumMethodologyProof.pdf \
+Design Diagrams: Navigate to designDiagrams folder \
+Test Logs: Navigate to testLogs 
 
 
