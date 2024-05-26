@@ -1,0 +1,178 @@
+PASS ./scripts.test.js
+  ✓ testJestSetup (50 ms)
+  ✓ test opening selectHexItem dialog manually (14 ms)
+  createPoly
+    ✓ createPoly_sixSides_outputContainsSixElements (221 ms)
+    ✓ createPoly_fourSides_outputContainsFourElements (32 ms)
+    ✓ createPoly_threeSides_outputContainsFourElements (24 ms)
+    ✓ createPoly_eightSides_outputContainsFourElements (18 ms)
+    ✓ createPoly_tenSides_outputContainsFourElements (19 ms)
+  drawPoly
+    ✓ drawPoly_hexCenteredOn11_canvasAt11ColoredBlackOnBoard (16 ms)
+    ✓ drawPoly_hexCenteredOn11_canvasAt11ColoredBlueOnBoard (21 ms)
+  drawTile
+    ✓ drawTile_tile1CenteredOn11_canvasAt11ColorEqualToWater (16 ms)
+    ✓ drawTile_tile1CenteredOn11_canvasAt42ColorEqualToDesert (12 ms)
+    ✓ drawTile_tile1CenteredOn71_canvasAt71ColorEqualToWater (18 ms)
+    ✓ drawTile_tile1CenteredOn14_canvasAt14ColorEqualToWater (13 ms)
+    ✓ drawTile_tile1CenteredOn74_canvasAt74ColorEqualToWater (18 ms)
+    ✓ drawTile_tile1CenteredOn17_canvasAt17ColorEqualToWater (11 ms)
+    ✓ drawTile_tile1CenteredOn77_canvasAt77ColorEqualToWater (13 ms)
+    ✓ drawTile_tile2CenteredOn11_canvasAt11ColorEqualToSwamp (13 ms)
+  createGridLayout
+    ✓ createGridLayout_tileOrder123456AllFlips_colorsArrInCorrectOrder (28 ms)
+    ✓ createGridLayout_tileOrder123456NoFlips_colorsArrInCorrectOrder (21 ms)
+    ✓ createGridLayout_tileOrder123456NoFlips_habsArrInCorrectOrder (22 ms)
+    ✓ createGridLayout_tileOrder123456AllFlips_habsArrInCorrectOrder (25 ms)
+  drawGrid
+    ✓ drawGrid_tileOrder123456NoFlips_canvasAtStartHexesCorrectColor (25 ms)
+    ✓ drawGrid_tileOrder123456AllFlips_canvasAtStartHexesCorrectColor (30 ms)
+  drawHabs
+    ✓ drawHabs_tileOrder123456NoFlips_elementsArrCorrectHabs (27 ms)
+    ✓ drawHabs_tileOrder123456AllFlips_elementsArrCorrectHabs (31 ms)
+  drawBuild
+    ✓ drawBuild_whiteStone11_buildingDrawnOnCanvasAndSavedInElementsArr (22 ms)
+    ✓ drawBuild_blueStone11_buildingDrawnOnCanvasAndSavedInElementsArr (25 ms)
+    ✓ drawBuild_greenStone11_buildingDrawnOnCanvasAndSavedInElementsArr (25 ms)
+    ✓ drawBuild_blackStone11_buildingDrawnOnCanvasAndSavedInElementsArr (24 ms)
+    ✓ drawBuild_whiteShack11_buildingDrawnOnCanvasAndSavedInElementsArr (25 ms)
+    ✓ drawBuild_blueShack11_buildingDrawnOnCanvasAndSavedInElementsArr (28 ms)
+    ✓ drawBuild_greenShack11_buildingDrawnOnCanvasAndSavedInElementsArr (26 ms)
+    ✓ drawBuild_blackShack11_buildingDrawnOnCanvasAndSavedInElementsArr (26 ms)
+  drawBuildings
+    ✓ drawBuildings_whiteStone11whiteShack44_buildingDrawnOnCanvasAndSavedInElementsArr (23 ms)
+    ✓ drawBuildings_blueStone11blueShack44_buildingDrawnOnCanvasAndSavedInElementsArr (23 ms)
+    ✓ drawBuildings_greenStone11greenShack44_buildingDrawnOnCanvasAndSavedInElementsArr (26 ms)
+    ✓ drawBuildings_blackStone11blackShack44_buildingDrawnOnCanvasAndSavedInElementsArr (31 ms)
+  drawBoard
+    ✓ drawBoard_basicBoardNoBuildings_correctDrawOnCanvasAndSavedCorrectInElementsArr (41 ms)
+    ✓ drawBoard_basicBoardNoBuildings_editElementsCorrect (26 ms)
+    ✓ drawBoard_randomIntroBoard_correctDrawOnCanvasAndSavedCorrectInElementsArr (28 ms)
+    ✓ drawBoard_randomNormalBoard_correctDrawOnCanvasAndSavedCorrectInElementsArr (28 ms)
+  genEmptyBoard
+    ✓ genEmptyBoard_none_correctDrawOnCanvasAndSavedCorrectInElementsArr (34 ms)
+  btnWhiteStone
+    ✓ btnWhiteStone_selectedElem11_elementsArr11HasWhiteStoneAndWhiteCoordsStoneIs11 (19 ms)
+    ✓ btnWhiteStone_selectedElem77_elementsArr77HasWhiteStoneAndWhiteCoordsStoneIs77 (15 ms)
+  btnWhiteShack
+    ✓ btnWhiteShack_selectedElem11_elementsArr11HasWhiteShackAndWhiteCoordsShackIs11 (17 ms)
+    ✓ btnWhiteShack_selectedElem77_elementsArr77HasWhiteShackAndWhiteCoordsShackIs77 (15 ms)
+  btnGreenStone
+    ✓ btnGreenStone_selectedElem11_elementsArr11HasGreenStoneAndGreenCoordsStoneIs11 (15 ms)
+    ✓ btnGreenStone_selectedElem77_elementsArr77HasGreenStoneAndGreenCoordsStoneIs77 (12 ms)
+  btnGreenShack
+    ✓ btnGreenShack_selectedElem11_elementsArr11HasGreenShackAndGreenCoordsShackIs11 (13 ms)
+    ✓ btnGreenShack_selectedElem77_elementsArr77HasGreenShack (14 ms)
+  btnBlueStone
+    ✓ btnBlueStone_selectedElem11_elementsArr11HasBlueStone (11 ms)
+    ✓ btnBlueStone_selectedElem77_elementsArr77HasBlueStone (15 ms)
+  btnBlueShack
+    ✓ btnBlueShack_selectedElem11_elementsArr11HasBlueShack (11 ms)
+    ✓ btnBlueShack_selectedElem77_elementsArr77HasBlueShack (14 ms)
+  btnBlackStone
+    ✓ btnBlackStone_selectedElem11_elementsArr11HasBlackStone (10 ms)
+    ✓ btnBlackStone_selectedElem77_elementsArr77HasBlackStone (14 ms)
+  btnBlackShack
+    ✓ btnBlackShack_selectedElem11_elementsArr11HasBlackShack (10 ms)
+    ✓ btnBlackShack_selectedElem77_elementsArr77HasBlackShack (11 ms)
+  noBuilds
+    ✓ noBuilds_selectedElemNoBuilds_elementsArr11HasNoBuilds (30 ms)
+    ✓ noBuilds_selectedElemNoBuilds_allCoordsDoNotContain11 (16 ms)
+    ✓ noBuilds_selectedElemBlackShack_elementsArr11HasNoBuilds (106 ms)
+    ✓ noBuilds_selectedElemBlackShack_blackShackCoordsDoNotContain11 (103 ms)
+    ✓ noBuilds_selectedElemBlackStone_elementsArr11HasNoBuilds (13 ms)
+    ✓ noBuilds_selectedElemBlackStone_blackStoneCoordsDoNotContain11 (12 ms)
+    ✓ noBuilds_selectedElemBlueShack_elementsArr11HasNoBuilds (15 ms)
+    ✓ noBuilds_selectedElemBlueShack_blueShackCoordsDoNotContain11 (12 ms)
+    ✓ noBuilds_selectedElemBlueStone_elementsArr11HasNoBuilds (15 ms)
+    ✓ noBuilds_selectedElemBlueStone_blueStoneCoordsDoNotContain11 (13 ms)
+    ✓ noBuilds_selectedElemGreenShack_elementsArr11HasNoBuilds (16 ms)
+    ✓ noBuilds_selectedElemGreenShack_greenShackCoordsDoNotContain11 (12 ms)
+    ✓ noBuilds_selectedElemGreenStone_elementsArr11HasNoBuilds (17 ms)
+    ✓ noBuilds_selectedElemGreenStone_greenStoneCoordsDoNotContain11 (12 ms)
+    ✓ noBuilds_selectedElemWhiteShack_elementsArr11HasNoBuilds (19 ms)
+    ✓ noBuilds_selectedElemWhiteShack_whiteShackCoordsDoNotContain11 (14 ms)
+    ✓ noBuilds_selectedElemWhiteStone_elementsArr11HasNoBuilds (35 ms)
+    ✓ noBuilds_selectedElemWhiteStone_whiteStoneCoordsDoNotContain11 (27 ms)
+  tileOneFlip
+    ✓ tileOneFlip_baseBoardLoaded_checkboxCheckedFlipChanged (53 ms)
+    ✓ tileOneFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (55 ms)
+  tileTwoFlip
+    ✓ tileTwoFlip_baseBoardLoaded_checkboxCheckedFlipChanged (36 ms)
+    ✓ tileTwoFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (46 ms)
+  tileThreeFlip
+    ✓ tileThreeFlip_baseBoardLoaded_checkboxCheckedFlipChanged (27 ms)
+    ✓ tileThreeFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (44 ms)
+  tileFourFlip
+    ✓ tileFourFlip_baseBoardLoaded_checkboxCheckedFlipChanged (26 ms)
+    ✓ tileFourFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (43 ms)
+  tileFiveFlip
+    ✓ tileFiveFlip_baseBoardLoaded_checkboxCheckedFlipChanged (31 ms)
+    ✓ tileFiveFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (43 ms)
+  tileSixFlip
+    ✓ tileSixFlip_baseBoardLoaded_checkboxCheckedFlipChanged (25 ms)
+    ✓ tileSixFlip_baseBoardLoaded1AlreadyFlipped_checkboxUnCheckedFlipChanged (42 ms)
+  tileOneSelector
+    ✓ tileOneSelector_baseBoardLoadedSelectTile2_tileOneSelectorOn2tileTwoSelectorOn1 (43 ms)
+    ✓ tileOneSelector_baseBoardLoadedSelectTile3_tileOneSelectorOn3tileThreeSelectorOn1 (48 ms)
+    ✓ tileOneSelector_baseBoardLoadedSelectTile4_tileOneSelectorOn4tileFourSelectorOn1 (44 ms)
+    ✓ tileOneSelector_baseBoardLoadedSelectTile5_tileOneSelectorOn5tileFiveSelectorOn1 (41 ms)
+    ✓ tileOneSelector_baseBoardLoadedSelectTile6_tileOneSelectorOn6tileSixSelectorOn1 (44 ms)
+  tileTwoSelector
+    ✓ tileTwoSelector_baseBoardLoadedSelectTile1_tileTwoSelectorOn1tileOneSelectorOn2 (48 ms)
+    ✓ tileTwoSelector_baseBoardLoadedSelectTile3_tileTwoSelectorOn3tileThreeSelectorOn2 (44 ms)
+    ✓ tileTwoSelector_baseBoardLoadedSelectTile4_tileTwoSelectorOn4tileFourSelectorOn2 (54 ms)
+    ✓ tileTwoSelector_baseBoardLoadedSelectTile5_tileTwoSelectorOn5tileFiveSelectorOn2 (45 ms)
+    ✓ tileTwoSelector_baseBoardLoadedSelectTile6_tileTwoSelectorOn6tileSixSelectorOn2 (42 ms)
+  tileThreeSelector
+    ✓ tileThreeSelector_baseBoardLoadedSelectTile1_tileThreeSelectorOn1tileOneSelectorOn3 (43 ms)
+    ✓ tileThreeSelector_baseBoardLoadedSelectTile2_tileThreeSelectorOn2tileTwoSelectorOn3 (41 ms)
+    ✓ tileThreeSelector_baseBoardLoadedSelectTile4_tileThreeSelectorOn4tileFourSelectorOn3 (43 ms)
+    ✓ tileThreeSelector_baseBoardLoadedSelectTile5_tileThreeSelectorOn5tileFiveSelectorOn3 (41 ms)
+    ✓ tileThreeSelector_baseBoardLoadedSelectTile6_tileThreeSelectorOn6tileSixSelectorOn3 (43 ms)
+  tileFourSelector
+    ✓ tileFourSelector_baseBoardLoadedSelectTile1_tileFourSelectorOn1tileOneSelectorOn4 (41 ms)
+    ✓ tileFourSelector_baseBoardLoadedSelectTile2_tileFourSelectorOn2tileTwoSelectorOn4 (42 ms)
+    ✓ tileFourSelector_baseBoardLoadedSelectTile3_tileFourSelectorOn3tileThreeSelectorOn4 (39 ms)
+    ✓ tileFourSelector_baseBoardLoadedSelectTile5_tileFourSelectorOn5tileFiveSelectorOn4 (47 ms)
+    ✓ tileFourSelector_baseBoardLoadedSelectTile6_tileFourSelectorOn6tileSixSelectorOn4 (42 ms)
+  tileFiveSelector
+    ✓ tileFiveSelector_baseBoardLoadedSelectTile1_tileFiveSelectorOn1tileOneSelectorOn5 (41 ms)
+    ✓ tileFiveSelector_baseBoardLoadedSelectTile2_tileFiveSelectorOn2tileTwoSelectorOn5 (48 ms)
+    ✓ tileFiveSelector_baseBoardLoadedSelectTile3_tileFiveSelectorOn3tileThreeSelectorOn5 (42 ms)
+    ✓ tileFiveSelector_baseBoardLoadedSelectTile4_tileFiveSelectorOn4tileFourSelectorOn5 (40 ms)
+    ✓ tileFiveSelector_baseBoardLoadedSelectTile6_tileFiveSelectorOn6tileSixSelectorOn5 (47 ms)
+  tileSixSelector
+    ✓ tileSixSelector_baseBoardLoadedSelectTile1_tileSixSelectorOn1tileOneSelectorOn6 (43 ms)
+    ✓ tileSixSelector_baseBoardLoadedSelectTile2_tileSixSelectorOn2tileTwoSelectorOn6 (46 ms)
+    ✓ tileSixSelector_baseBoardLoadedSelectTile3_tileSixSelectorOn3tileThreeSelectorOn6 (42 ms)
+    ✓ tileSixSelector_baseBoardLoadedSelectTile4_tileSixSelectorOn4tileFourSelectorOn6 (44 ms)
+    ✓ tileSixSelector_baseBoardLoadedSelectTile6_tileSixSelectorOn5tileFiveSelectorOn6 (41 ms)
+  btnP1Cube
+    ✓ btnP1Cube_selectedElem11_elementsArr11HasP1Cube (11 ms)
+
+ › 4 snapshots obsolete.
+   • drawBoard drawBoard_randomIntroBoard_editElementsCorrect 1
+   • drawBoard drawBoard_randomNormalBoard_editElementsCorrect 1
+   • drawGrid drawGrid_tileOrder123456_canvasAtStartHexesCorrectColor 1
+   • drawGrid drawGrid_tileOrder123456AllFlips_canvasAtStartHexesCorrectColor 1
+------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+All files   |   45.65 |    30.08 |   35.82 |   45.51 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+ scripts.js |   45.65 |    30.08 |   35.82 |   45.51 | 72,82,337-383,861-867,884-963,977-979,992-1006,1019-1020,1025-1026,1040-1041,1066,1090,1111,1133,1155,1177,1199,1221,1282-1288,1294-1296,1300-1302,1387,1416,1445,1474,1493-1494,1536,1559-1560,1597,1622-1623,1657,1685-1686,1717,1748-1749,1777,1811-1812,1837,1846-1848,1857,1862-1872,1876-1886,1890-1900,1904-1914,1918-1928,1932-1942,1946-1956,1960-1970,1974-1984,1988-1991,1995-2004,2010-2031,2035-2056,2060-2081,2085-2086,2090-2091,2095-2096,2100-2101,2105-2106,2110,2114,2118-2119,2124,2128-2149,2153-2168,2172,2176,2180-2193,2207-2215,2219-2240,2243-2321,2325-2364,2368-2675,2680-3072,3076-3141,3145-3149,3152-3156,3159-3163,3166-3170,3173-3177,3182-3230,3233-3283,3288-3348,3352-3403,3410-3469,3472-3526 
+------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Snapshot Summary
+ › 4 snapshots obsolete from 1 test suite. To remove them all, run `npm test -- -u`.
+   ↳ ./scripts.test.js
+       • drawBoard drawBoard_randomIntroBoard_editElementsCorrect 1
+       • drawBoard drawBoard_randomNormalBoard_editElementsCorrect 1
+       • drawGrid drawGrid_tileOrder123456_canvasAtStartHexesCorrectColor 1
+       • drawGrid drawGrid_tileOrder123456AllFlips_canvasAtStartHexesCorrectColor 1
+
+Test Suites: 1 passed, 1 total
+Tests:       119 passed, 119 total
+Snapshots:   4 obsolete, 30 passed, 30 total
+Time:        4.562 s, estimated 6 s
+Ran all test suites.
+Running tests ended
